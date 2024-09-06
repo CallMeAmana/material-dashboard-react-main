@@ -1,0 +1,34 @@
+.course-card-link {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color */
+    display: block; /* Ensure the link covers the entire card */
+  }
+  
+  .course-card {
+    padding: 16px;
+    margin-bottom: 20px; /* Increased margin for more space between cards */
+    border-radius: 15px; /* Rounded borders */
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff; /* Light background color */
+    overflow: hidden; /* Ensure no overflow for rounded corners */
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
+  }
+  
+  .course-card-title {
+    font-weight: 600; /* Slightly bolder title */
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .course-card-info {
+    color: #757575; /* Material-UI textSecondary color */
+  }
+  
+  .course-card-actions {
+    display: flex;
+    gap: 8px;
+  }
